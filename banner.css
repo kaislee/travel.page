@@ -1,0 +1,41 @@
+.banner {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), /* Darker gradient overlay */
+        url('../../images/background.jpg'); /* Path to the background image */
+    background-size: cover;      /* Make the image cover the entire div */
+    background-position: center; /* Center the image */
+    padding: 150px 0;            /* Top and bottom padding */
+    text-align: center;          /* Center text horizontally */
+    color: white;                /* White text color */
+}
+
+.banner h1 {
+    font-size: 60px;             /* Larger title for emphasis */
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for readability */
+}
+
+.banner h2 {
+    font-size: 30px;             /* Font size for the subtitle */
+    font-weight: lighter;        /* Lighter font weight */
+    color: #F0E68C;              /* Softer yellow color for better contrast */
+    margin: 15px 0;              /* Add spacing between lines */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle shadow for readability */
+}
+
+.btn-blue {
+    background-color: #1E90FF;   /* Vibrant blue for a travel theme */
+    color: white;
+    padding: 15px 30px;          /* Adjusted padding for better size */
+    border: none;
+    border-radius: 8px;          /* Slightly more rounded corners */
+    cursor: pointer;
+    text-transform: uppercase;   /* Make the text uppercase */
+    font-weight: bold;
+    font-size: 18px;             /* Slightly larger font size */
+}
+
+.btn-blue:hover {
+    background-color: #104E8B;   /* Darker blue for hover effect */
+}
