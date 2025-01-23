@@ -61,6 +61,8 @@ h2 {
   color: #2c3e50;
   text-align: center;
 }
+
+/* Cards Section */
 .cards {
     display: flex;
     flex-wrap: wrap; /* Allows cards to wrap if needed */
